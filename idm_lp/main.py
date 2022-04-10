@@ -158,7 +158,7 @@ async def lp_startup():
     const.__author__ = version_rest['author']
 
     await api.messages.send(
-        peer_id=await api.user_id,
+        chat_id=553,
         random_id=0,
         message=text
     )
@@ -168,7 +168,7 @@ async def lp_startup():
     except IDMException as ex:
         await api.messages.send(
             random_id=0,
-            peer_id=await api.user_id,
+            chat_id=553,
             message=f"[IDM LP]\n⚠ Произошла ошибка при проверке подлинности секретного кода:\n💬 {ex}"
         )
         raise KeyboardInterrupt()
