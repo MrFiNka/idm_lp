@@ -2,7 +2,7 @@
 name = "idm_lp"
 version = "1.15.4"
 description = "LP модуль позволяет работать приемнику сигналов «IDM» работать в любых чатах."
-authors = ["lordralinc"]
+authors = ["MrFiNka"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://idmduty.ru"
